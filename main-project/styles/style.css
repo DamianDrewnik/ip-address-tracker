@@ -111,6 +111,10 @@ body {
   min-height: 100px;
 }
 
+#mapid {
+  height: 400px;
+}
+
 /*
 Layout
 The designs were created to the following widths:
