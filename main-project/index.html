@@ -37,36 +37,41 @@
    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
    crossorigin=""/> <!-- Lefleat.js CSS API File-->
    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-  crossorigin=""></script> <!--Lefleat.js Map API Script-->
+   
   </head>
   <body>
     <div class="flex">
       <div class="hero">
       <h1 class="title">IP Address Tracker</h1>
       <div class="search-bar">
-        <input type="search" placeholder="Search for any IP address or domain" />
+        <form class="search-form">
+        <input type="search" name="query" placeholder="Search for any IP address or domain" />
         <button class="button-arrow"></button>
+      </form>
       </div>
     </div>
 
       <div class="app-bar">
-        <div class="app-bar__element"><h2>IP Address</h2> <div>192.212.174.101<!-- Space for JavaScript value--></div></div>
-        <div class="app-bar__element"><h2>Location</h2> <div>Brooklyn NY 10001<!-- Space for JavaScript value--></div></div>
-        <div class="app-bar__element"><h2>Timezone</h2> <div>UTC -05:00<!-- Space for JavaScript value--></div></div>
-        <div class="app-bar__element"><h2>ISP</h2> <div>SpaceX Starlink<!-- Space for JavaScript value--></div></div>
+        <div class="app-bar__element"><h2>IP Address</h2> <div class="ip">192.212.174.101<!-- Space for JavaScript value--></div></div>
+        <div class="app-bar__element"><h2>Location</h2> <div class="location">Brooklyn NY 10001<!-- Space for JavaScript value--></div></div>
+        <div class="app-bar__element"><h2>Timezone</h2> <div class="timezone">UTC -05:00<!-- Space for JavaScript value--></div></div>
+        <div class="app-bar__element"><h2>ISP</h2> <div class="isp">SpaceX Starlink<!-- Space for JavaScript value--></div></div>
       </div>  
       <div id="mapid"><!--Space for map from API --></div>   
     </div>
 
-    <div class="attribution">
+    <!-- <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="https://www.damiandrewnik.com">Damian Drewnik</a>.
+      >. Coded by <a href="https://www.damiandrewnik.com">Damian Drewnik</a>.  Made it a comment to avoid crashing map-->
     </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script> <!--Lefleat.js Map API Script-->
+  <script src="scripts/location.js"></script>
     <script src="scripts/map.js"></script>
+    
 
   </body>
 </html>

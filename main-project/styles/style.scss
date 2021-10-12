@@ -27,10 +27,13 @@ body {
   padding-bottom: 2rem;
 }
 
+
 .search-bar {
   width: 100%;
-  display: flex;
-  justify-content: center;
+  form {
+    display: flex;
+    justify-content: center;
+  }
   input {
     min-width: 40%;
     padding: 0.7rem;
