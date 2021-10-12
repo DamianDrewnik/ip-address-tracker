@@ -237,6 +237,12 @@ body {
   }
 }
 
+@media screen and (max-height: 600px) {
+  .app-bar {
+    top: 35%;
+  }
+}
+
 /*
 Layout
 The designs were created to the following widths:
