@@ -10,15 +10,13 @@ body {
   display: flex;
   flex-direction: column;
   height: 100%;
+  position: relative;
 }
 
 body {
   font-family: "Rubik", sans-serif;
   font-size: 18px;
   color: hsl(0, 0%, 17%);
-  background-color: yellowgreen;
-  height: 100%;
-  position: relative;
 }
 .flex {
   display: flex;
