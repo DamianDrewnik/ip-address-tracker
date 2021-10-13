@@ -162,6 +162,11 @@ body {
     top: 35%;
   }
 }
+@media screen and (max-height: 400px){
+  .app-bar{
+    top: 50%;
+  }
+}
 
 /*
 Layout
