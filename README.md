@@ -1,5 +1,7 @@
 This website allows the user to enter any domain or ip address and see the location and short information about it. It creates a map using leafleat.js API and Mapbox API. It also connects to IP Geolocation API to find where the address or domain that user typed is located. Then the website displays the location on the map as well as some information about the address/domain.
 
+Live website can be found at: https://elated-yalow-f2c7d4.netlify.app/
+
 Technologies used:
 HTML
 CSS (CSS Grid and Flexbox for layout)
