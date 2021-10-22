@@ -123,8 +123,11 @@ body {
 }
 
 @media screen and (max-width: 760px) {
-  .title{font-size: 24px; height:50%;}
-  .search-bar input{
+  .title {
+    font-size: 24px;
+    height: 50%;
+  }
+  .search-bar input {
     min-width: 80%;
   }
   .app-bar {
@@ -151,37 +154,19 @@ body {
   }
 }
 
-@media screen and (min-height: 760px){
-  .app-bar{
+@media screen and (min-height: 760px) {
+  .app-bar {
     top: 20%;
   }
 }
 
-@media screen and (max-height: 600px){
-  .app-bar{
+@media screen and (max-height: 600px) {
+  .app-bar {
     top: 35%;
   }
 }
-@media screen and (max-height: 400px){
-  .app-bar{
+@media screen and (max-height: 400px) {
+  .app-bar {
     top: 50%;
   }
 }
-
-/*
-Layout
-The designs were created to the following widths:
-Mobile: 375px
-Desktop: 1440px
-
-Colors:
-Very Dark Gray: hsl(0, 0%, 17%)
-Dark Gray: hsl(0, 0%, 59%)
-
-Typography:
-Body Copy
-Font size (text input): 18px
-Font:
-Family: Rubik https://fonts.google.com/specimen/Rubik
-Weights: 400, 500, 700
-*/
