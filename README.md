@@ -2,6 +2,13 @@ This website allows the user to enter any domain or ip address and see the locat
 
 Live website can be found at: https://elated-yalow-f2c7d4.netlify.app/
 
+Examples of domains and ip addresses that can be checked:
+www.monterail.com
+www.netflix.com
+142.250.72.164
+138.197.214.0
+
+
 Technologies used:
 HTML
 CSS (CSS Grid and Flexbox for layout)
